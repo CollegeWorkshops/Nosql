@@ -1,0 +1,26 @@
+-Adding a new bucket
+
+curl -v -d 'this is a bucket with name user-seesions' -H "Content-Type: text/plain" http://127.0.0.1:10018/buckets/user-sessions/keys 
+curl -v -d 'this is a bucket with name shop-carts' -H "Content-Type: text/plain" http://127.0.0.1:10018/buckets/shop-carts/keys
+
+-Listing existing buckets
+
+curl -v http://localhost:10018/buckets?buckets=true | format-json
+
+-Adding a key/value to existing bucket
+
+curl -v -XPUT -d 'HAXSDDHDHDHDHHDHDHDHD00001' -H "Content-Type: application/json" http://localhost:10018/buckets/user-sessions/keys/sandeep?returnbody=true | format-json
+curl -v -XPUT -d '{"cart":{"books":[{"name":"no-sql","quantity":10}]}}' -H "Content-Type: application/json" http://localhost:10018/buckets/shop-carts/keys/pramod?returnbody=true | format-json
+
+-Listing keys
+curl -v http://localhost:10018/buckets/user-sessions/keys?keys=true |format-json
+curl -v http://localhost:10018/buckets/shop-carts/keys?keys=true |format-json
+
+--Fetching key/value
+
+curl -v http://127.0.0.1:10018/buckets/user-sessions/keys/sandeep
+curl -v http://127.0.0.1:10018/buckets/shop-carts/keys/pramod
+
+
+
+
