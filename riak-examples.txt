@@ -23,17 +23,17 @@ curl -v http://127.0.0.1:10018/buckets/shop-carts/keys/pramod
 
 
 --Delete key
- curl -v -X DELETE http://127.0.0.1:10018/buckets/user-sessions/keys/sandeep
+curl -v -X DELETE http://127.0.0.1:10018/buckets/user-sessions/keys/sandeep
 
 
 
 #Ring details
 
 joing to a cluster
-$ dev2/bin/riak-admin cluster join dev1@127.0.0.1
-$ dev3/bin/riak-admin cluster join dev1@127.0.0.1
-$ dev4/bin/riak-admin cluster join dev1@127.0.0.1
-$ dev5/bin/riak-admin cluster join dev1@127.0.0.1
+dev2/bin/riak-admin cluster join dev1@127.0.0.1
+dev3/bin/riak-admin cluster join dev1@127.0.0.1
+dev4/bin/riak-admin cluster join dev1@127.0.0.1
+dev5/bin/riak-admin cluster join dev1@127.0.0.1
 
 ./bin/riak-admin status |grep ring
 
@@ -44,9 +44,15 @@ $ dev5/bin/riak-admin cluster join dev1@127.0.0.1
 # and keep watching cluster ring status
 
 
+#ringready command
+
 
 #Vnode status, run this on each node, take note of key count , bring node down by using cluster leave  and see key counts and see vnodes increased. 
 
 ./dev1/bin/riak-admin vnode-status | grep key_count
 
 
+#-H "X-Riak-Vclock: a85hYGBgzmDKBVIsTFUPPmcwJTLmsTIcmsJ1nA8qzK7HcQwqfB0hzNacxCYWcA1ZIgsA="
+
+
+#echo -n "hello" | openssl dgst -sha512
