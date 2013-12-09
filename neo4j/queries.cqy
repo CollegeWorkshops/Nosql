@@ -1,0 +1,23 @@
+Games in a genre --->
+MATCH (g:GENRE {name:'Hack and Slash'}) <-[:IS_OF_GENRE]- (game) return game.name;
+MATCH (g:GENRE {name:'Action'}) <-[:IS_OF_GENRE]- (game) -[:HAS_PEGI_RATING]->(p:PEGI{rating:'18'} ) return game.name;
+
+What Genres are the games that I have bought --->
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)-[:IS_OF_GENRE]->(genre) return DISTINCT genre.name;
+
+Rated above 90 --->
+
+Similar games to the Genre I have bought --->
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) return DISTINCT game.name;
+
+On a particular date --->
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT{on:"01/12/2013"}]->(g) return g.name;
+
+Get me games played by users who have played similar games
+Get me all the games and the dates I bought them on
+Give me games that have been played by users who have played similar games and have a rating of over 80
+Give me games by the same publisher whose games I have played most
+Give me total cost of all games I have bought
+
+Game popularity by publisher and genre ---> Most Bought, Most Rated, Most Bought Genre
+How much did a publisher earn on a day or overall

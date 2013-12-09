@@ -83,3 +83,15 @@ MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Darkness 2' AND p.name = '2K games'
 MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Bioshock 1' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
 MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Bioshock 2' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
 MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Bioshock Infinite' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Darkness 1' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Darkness 2' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Grand Theft Auto - Vice City' AND p.name = 'Rockstar Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Grand Theft Auto - San Andreas' AND p.name = 'Rockstar Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Grand Theft Auto - Vice City' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Grand Theft Auto - San Andreas' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Red Dead Redemption' AND p.name = 'Rockstar Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
