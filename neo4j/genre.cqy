@@ -1,0 +1,17 @@
+CREATE (g:GENRE {name:'Adventure'}) RETURN g;
+CREATE (g:GENRE {name:'Hack and Slash'}) RETURN g;
+CREATE (g:GENRE {name:'Third Person Shooter'}) RETURN g;
+CREATE (g:GENRE {name:'First Person Shooter - FPS'}) RETURN g;
+CREATE (g:GENRE {name:'Multiplayer'}) RETURN g;
+CREATE (g:GENRE {name:'Racing'}) RETURN g;
+CREATE (g:GENRE {name:'Action'}) RETURN g;
+CREATE (g:GENRE {name:'Beat em up'}) RETURN g;
+CREATE (g:GENRE {name:'Interactive Drama'}) RETURN g;
+CREATE (g:GENRE {name:'Stealth'}) RETURN g;
+CREATE (g:GENRE {name:'Real Time Strategy'}) RETURN g;
+CREATE (g:GENRE {name:'Puzzle'}) RETURN g;
+CREATE (g:GENRE {name:'Role Playing Game'}) RETURN g;
+CREATE (g:GENRE {name:'Open World'}) RETURN g;
+CREATE (g:GENRE {name:'Sport'}) RETURN g;
+CREATE INDEX on :GENRE(name);
+CREATE CONSTRAINT ON (genre:GENRE) ASSERT genre.name IS UNIQUE;

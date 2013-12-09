@@ -1,0 +1,136 @@
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War Chains Of Olympus' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War Chains Of Olympus' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War 1' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War 1' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War Ghost of Sparta' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War Ghost of Sparta' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War 2' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War 2' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'God Of War 3' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - The Sands of Time' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - Warrior Within' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - Warrior Within' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) 
+RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - Warrior Within' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - The Two Thrones' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - The Two Thrones' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) 
+RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Prince of Persia - The Two Thrones' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 1' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) 
+RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 1' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 2 - The Fall of Max Payne' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 2 - The Fall of Max Payne' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) 
+RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 3' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 3' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Max Payne 3' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Counter Strike - 1.6' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Counter Strike - Source' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Counter Strike - Condition Zero' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Borderlands 1' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Borderlands 2' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Hitman 1' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Hitman 2' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Underground' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Underground 2' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Most Wanted' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Most Wanted' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Most Wanted' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Most Wanted' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Carbon' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Carbon' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Carbon' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Need For Speed - Carbon' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Unreal Tournament - GOTY' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Unreal Tournament - 2003' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Unreal Tournament - 2004' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Unreal Tournament - 2007' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Unreal Tournament - 2007' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Unreal Tournament - 2007' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Heavy Rain' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Heavy Rain' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Heavy Rain' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Asuras Wrath' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Asuras Wrath' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Age of Empire' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Portal 1' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Portal 1' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Portal 1' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Portal 2' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Portal 2' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Portal 2' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2009' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2009' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2009' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2011' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2011' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2011' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2012' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2012' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'F1 2012' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Burnout - Legends' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Burnout - Dominator' AND p.type = 'PS2' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Burnout - Dominator' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Resistance 1 - Fall of Man' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Resistance 2' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Resistance 3' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Resistance Retribution' AND p.type = 'PSP' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Cricket 2012' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Cricket 2012' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Cricket 2010' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Cricket 2010' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'NBA 2012' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'NBA 2012' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Fifa 2012' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Fifa 2012' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Grand Theft Auto - Vice City' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Grand Theft Auto - San Andreas' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Darkness 1' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Darkness 1' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Darkness 1' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Darkness 2' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Darkness 2' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Darkness 2' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'PGA 2012' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'PGA 2012' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'PGA 2012' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock 1' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock 1' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock 1' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock 2' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock 2' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock 2' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock Infinite' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock Infinite' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Bioshock Infinite' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Syndicate Wars' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Syndicate Wars' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Syndicate Wars' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Red Dead Redemption' AND p.type = 'PC' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Red Dead Redemption' AND p.type = 'PS3' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;
+MATCH (g:GAME),(p:PLATFORM) WHERE g.name = 'Red Dead Redemption' AND p.type = 'XBOX 360' CREATE (g)-[r:IS_PLAYABLE_ON]->(p) RETURN r;

@@ -1,0 +1,54 @@
+CREATE (g:GAME {name:'God Of War Chains Of Olympus', cost: 750, user_rating: 91}) RETURN g
+CREATE (g:GAME {name:'God Of War 1', cost: 420, user_rating: 94}) RETURN g
+CREATE (g:GAME {name:'God Of War Ghost of Sparta', cost: 850, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'God Of War 2', cost: 999, user_rating: 93}) RETURN g
+CREATE (g:GAME {name:'God Of War 3', cost: 950, user_rating: 92}) RETURN g
+CREATE (g:GAME {name:'Prince of Persia - The Sands of Time', cost: 690, user_rating: 89}) RETURN g
+CREATE (g:GAME {name:'Prince of Persia - Warrior Within', cost: 700, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Prince of Persia - The Two Thrones', cost: 750, user_rating: 85}) RETURN g
+CREATE (g:GAME {name:'Max Payne 1', cost: 999, user_rating: 89}) RETURN g
+CREATE (g:GAME {name:'Max Payne 2 - The Fall of Max Payne', cost: 1499, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'Max Payne 3', cost: 999, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'Counter Strike - 1.6', cost: 600, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Counter Strike - Source', cost: 480, user_rating: 88}) RETURN g
+CREATE (g:GAME {name:'Counter Strike - Condition Zero', cost: 500, user_rating: 65}) RETURN g
+CREATE (g:GAME {name:'Borderlands 1', cost: 1720, user_rating: 84}) RETURN g
+CREATE (g:GAME {name:'Borderlands 2', cost: 2200, user_rating: 89}) RETURN g
+CREATE (g:GAME {name:'Hitman 1', cost: 1000, user_rating: 82}) RETURN g
+CREATE (g:GAME {name:'Hitman 2', cost: 820, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Need For Speed - Underground', cost: 750, user_rating: 82}) RETURN g
+CREATE (g:GAME {name:'Need For Speed - Underground 2', cost: 800, user_rating: 82}) RETURN g
+CREATE (g:GAME {name:'Need For Speed - Most Wanted', cost: 699, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Need For Speed - Carbon', cost: 799, user_rating: 78}) RETURN g
+CREATE (g:GAME {name:'Unreal Tournament - GOTY', cost: 2000, user_rating: 84}) RETURN g
+CREATE (g:GAME {name:'Unreal Tournament - 2003', cost: 1300, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Unreal Tournament - 2004', cost: 1500, user_rating: 85}) RETURN g
+CREATE (g:GAME {name:'Unreal Tournament - 2007', cost: 1800, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'Heavy Rain', cost: 950, user_rating: 87}) RETURN g
+CREATE (g:GAME {name:'Asuras Wrath', cost: 1000, user_rating: 80}) RETURN g
+CREATE (g:GAME {name:'Age of Empire', cost: 750, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Portal 1', cost: 1300, user_rating: 90}) RETURN g
+CREATE (g:GAME {name:'Portal 2', cost: 1200, user_rating: 95}) RETURN g
+CREATE (g:GAME {name:'F1 2009', cost: 1100, user_rating: 69}) RETURN g
+CREATE (g:GAME {name:'F1 2011', cost: 1200, user_rating: 79}) RETURN g
+CREATE (g:GAME {name:'F1 2012', cost: 1400, user_rating: 80}) RETURN g
+CREATE (g:GAME {name:'Burnout - Legends', cost: 750, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'Burnout - Dominator', cost: 850, user_rating: 76}) RETURN g
+CREATE (g:GAME {name:'Resistance 1 - Fall of Man', cost: 1200, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'Resistance 2', cost: 1300, user_rating: 87}) RETURN g
+CREATE (g:GAME {name:'Resistance 3', cost: 1700, user_rating: 83}) RETURN g
+CREATE (g:GAME {name:'Resistance Retribution', cost: 850, user_rating: 81}) RETURN g
+CREATE (g:GAME {name:'Cricket 2012', cost: 700, user_rating: 79}) RETURN g
+CREATE (g:GAME {name:'Cricket 2010', cost: 500, user_rating: 66}) RETURN g
+CREATE (g:GAME {name:'Darkness 1', cost: 1300, user_rating: 79}) RETURN g
+CREATE (g:GAME {name:'Darkness 2', cost: 1350, user_rating: 80}) RETURN g
+CREATE (g:GAME {name:'Fifa 2012', cost: 850, user_rating: 86}) RETURN g
+CREATE (g:GAME {name:'NBA 2012', cost: 600, user_rating: 90}) RETURN g
+CREATE (g:GAME {name:'PGA 2012', cost: 450, user_rating: 75}) RETURN g
+CREATE (g:GAME {name:'Grand Theft Auto - Vice City', cost: 599, user_rating: 95}) RETURN g
+CREATE (g:GAME {name:'Grand Theft Auto - San Andreas', cost: 699, user_rating: 95}) RETURN g
+CREATE (g:GAME {name:'Syndicate Wars', cost: 1000, user_rating: 78}) RETURN g
+CREATE (g:GAME {name:'Red Dead Redemption', cost: 850, user_rating: 95}) RETURN g
+CREATE (g:GAME {name:'Bioshock Infinite', cost: 1250, user_rating: 94}) RETURN g
+CREATE (g:GAME {name:'Bioshock 1', cost: 900, user_rating: 96}) RETURN g
+CREATE (g:GAME {name:'Bioshock 2', cost: 800, user_rating: 98}) RETURN g

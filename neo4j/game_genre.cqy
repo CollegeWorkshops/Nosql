@@ -1,0 +1,132 @@
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War Chains Of Olympus' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War Chains Of Olympus' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War Chains Of Olympus' AND b.name = 'Hack and Slash' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 1' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 1' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 1' AND b.name = 'Hack and Slash' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War Ghost of Sparta' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War Ghost of Sparta' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War Ghost of Sparta' AND b.name = 'Hack and Slash' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 2' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 2' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 2' AND b.name = 'Hack and Slash' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 3' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 3' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'God Of War 3' AND b.name = 'Hack and Slash' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Prince of Persia - The Sands of Time' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Prince of Persia - The Sands of Time' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Prince of Persia - Warrior Within' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Prince of Persia - Warrior Within' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Prince of Persia The Two Thrones' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Prince of Persia The Two Thrones' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Max Payne 1' AND b.name = 'Third Person Shooter' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Max Payne 2 - The Fall of Max Payne' AND b.name = 'Third Person Shooter' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Max Payne 3' AND b.name = 'Third Person Shooter' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Counter Strike - 1.6' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Counter Strike - 1.6' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Counter Strike - Source' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Counter Strike - Source' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Counter Strike - Condition Zero' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Counter Strike - Condition Zero' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Borderlands 1' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Borderlands 1' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Borderlands 1' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Borderlands 2' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Borderlands 2' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Borderlands 2' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 1' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 1' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 1' AND b.name = 'Third Person Shooter' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 1' AND b.name = 'Stealth' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 2' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 2' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 2' AND b.name = 'Third Person Shooter' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Hitman 2' AND b.name = 'Stealth' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Need For Speed - Underground' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Need For Speed - Underground 2' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Need For Speed - Most Wanted' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Need For Speed - Carbon' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - GOTY' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - GOTY' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - 2003' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - 2003' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - 2004' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - 2004' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - 2007' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Unreal Tournament - 2007' AND b.name = 'Multiplayer' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Heavy Rain' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Heavy Rain' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Heavy Rain' AND b.name = 'Interactive Drama' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Asuras Wrath' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Asuras Wrath' AND b.name = 'Interactive Drama' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Asuras Wrath' AND b.name = 'Beat em up' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Age of Empire' AND b.name = 'Real Time Strategy' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Portal 1' AND b.name = 'Puzzle' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Portal 2' AND b.name = 'Puzzle' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'F1 2009' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'F1 2011' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'F1 2012' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Burnout - Legends' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Burnout - Dominator' AND b.name = 'Racing' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Resistance 1 - Fall of Man' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Resistance 2' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Resistance 3' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Resistance Retribution' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Cricket 2012' AND b.name = 'Sport' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Cricket 2010' AND b.name = 'Sport' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Fifa 2012' AND b.name = 'Sport' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'NBA 2012' AND b.name = 'Sport' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'PGA 2012' AND b.name = 'Sport' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Darkness 1' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Darkness 2' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - Vice City' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - Vice City' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - Vice City' AND b.name = 'Role Playing Game' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - Vice City' AND b.name = 'Open World' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - San Andreas' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - San Andreas' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - San Andreas' AND b.name = 'Role Playing Game' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Grand Theft Auto - San Andreas' AND b.name = 'Open World' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Syndicate wars' AND b.name = 'Real Time Strategy' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Red Dead Redemption' AND b.name = 'Adventure' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Red Dead Redemption' AND b.name = 'Action' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Red Dead Redemption' AND b.name = 'Open World' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Bioshock Infinite' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Bioshock 1' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r;
+MATCH (g:GAME),(b:GENRE) WHERE g.name = 'Bioshock 2' AND b.name = 'First Person Shooter - FPS' CREATE (g)-[r:IS_OF_GENRE]->(b) RETURN r

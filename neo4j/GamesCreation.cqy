@@ -1,0 +1,1 @@
+MATCH (g:GAME {name = 'God Of War Chains Of Olympus'}) CREATE (g)-[r:IS_OF_GENRE]->(b:GENRE {name:'Action'}),  CREATE (g)-[r:IS_OF_GENRE]->(b:GENRE {name:'ADVENTURE'}) RETURN r
