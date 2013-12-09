@@ -1,0 +1,85 @@
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War Chains Of Olympus' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 1' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War Ghost of Sparta' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 2' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 3' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War Chains Of Olympus' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 1' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War Ghost of Sparta' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 2' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 3' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War Chains Of Olympus' AND p.name = 'Santa Monica Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 1' AND p.name = 'Santa Monica Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War Ghost of Sparta' AND p.name = 'Santa Monica Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 2' AND p.name = 'Santa Monica Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'God Of War 3' AND p.name = 'Santa Monica Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Prince of Persia - The Sands of Time' AND p.name = 'Ubisoft' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Prince of Persia - Warrior Within' AND p.name = 'Ubisoft' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Prince of Persia - The Two Thrones' AND p.name = 'Ubisoft' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Max Payne 1' AND p.name = 'Rockstar Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Max Payne 2 - The Fall of Max Payne' AND p.name = 'Rockstar Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Max Payne 3' AND p.name = 'Rockstar Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Counter Strike - 1.6' AND p.name = 'Valve' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Counter Strike - Source' AND p.name = 'Valve' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Counter Strike - Condition Zero' AND p.name = 'Valve' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Borderlands 1' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Borderlands 2' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Hitman 1' AND p.name = 'Square Enix' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Hitman 2' AND p.name = 'Square Enix' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Hitman 1' AND p.name = 'Eidos Interactive' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Hitman 2' AND p.name = 'Eidos Interactive' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Need For Speed - Underground' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Need For Speed - Underground 2' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Need For Speed - Most Wanted' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Need For Speed - Carbon' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Unreal Tournament - GOTY' AND p.name = 'EPIC Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Unreal Tournament - 2003' AND p.name = 'EPIC Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Unreal Tournament - 2004' AND p.name = 'EPIC Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Unreal Tournament - 2007' AND p.name = 'EPIC Games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Heavy Rain' AND p.name = 'Quantic Dream' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Asuras Wrath' AND p.name = 'Capcom' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Age of Empire' AND p.name = 'Microsoft Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Portal 1' AND p.name = 'Microsoft Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Portal 2' AND p.name = 'Microsoft Studios' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Portal 1' AND p.name = 'Valve' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Portal 2' AND p.name = 'Valve' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'F1 2009' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'F1 2011' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'F1 2012' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Cricket 2012' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Cricket 2010' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Fifa 2012' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'PGA 2012' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'PGA 2012' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Burnout - Legends' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Burnout - Dominator' AND p.name = 'Electronic Arts' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Resistance 1 - Fall of Man' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Resistance 2' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Resistance 3' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Resistance Retribution' AND p.name = 'Sony Computer Entertainment' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Darkness 1' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Darkness 2' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Bioshock 1' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Bioshock 2' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
+MATCH (g:GAME),(p:PUBLISHER) WHERE g.name = 'Bioshock Infinite' AND p.name = '2K games' CREATE (g)-[r:IS_PUBLISHED_BY]->(p) RETURN r;
