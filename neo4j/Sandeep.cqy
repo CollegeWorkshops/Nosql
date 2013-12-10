@@ -1,0 +1,22 @@
+CREATE INDEX on :PERSON(name);
+
+CREATE (Sandeep:PERSON {name:'Sandeep'}) return Sandeep;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Bioshock Infinite' CREATE (Sandeep)-[r:BOUGHT{on:"10/04/2013"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Bioshock 1' CREATE (Sandeep)-[r:BOUGHT{on:"10/04/2013"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Need For Speed - Underground' CREATE (Sandeep)-[r:BOUGHT{on:"10/04/2007"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Need For Speed - Underground 2' CREATE (Sandeep)-[r:BOUGHT{on:"11/02/2009"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Need For Speed - Most Wanted' CREATE (Sandeep)-[r:BOUGHT{on:"09/09/2009"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Syndicate Wars' CREATE (Sandeep)-[r:BOUGHT{on:"01/10/2013"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Borderlands 2' CREATE (Sandeep)-[r:BOUGHT{on:"02/12/2012"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Heavy Rain' CREATE (Sandeep)-[r:BOUGHT{on:"15/08/2012"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Red Dead Redemption' CREATE (Sandeep)-[r:BOUGHT{on:"27/05/2012"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Prince of Persia - The Sands of Time' CREATE (Sandeep)-[r:BOUGHT{on:"19/04/2008"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Prince of Persia - Warrior Within' CREATE (Sandeep)-[r:BOUGHT{on:"19/05/2008"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Prince of Persia - The Two Thrones' CREATE (Sandeep)-[r:BOUGHT{on:"19/05/2009"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Resistance 1 - Fall of Man' CREATE (Sandeep)-[r:BOUGHT{on:"19/05/2010"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Resistance 2' CREATE (Sandeep)-[r:BOUGHT{on:"21/07/2010"}]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:GAME) WHERE Sandeep.name = 'Sandeep' AND g.name = 'Resistance 3' CREATE (Sandeep)-[r:BOUGHT{on:"17/05/2011"}]->(g) RETURN r;
+
+
+MATCH (Sandeep:PERSON),(g:PLATFORM) WHERE Sandeep.name = 'Sandeep' AND g.type = 'XBOX 360' CREATE (Sandeep)-[r:OWNS]->(g) RETURN r;
+MATCH (Sandeep:PERSON),(g:PLATFORM) WHERE Sandeep.name = 'Sandeep' AND g.type = 'PS3' CREATE (Sandeep)-[r:OWNS]->(g) RETURN r;

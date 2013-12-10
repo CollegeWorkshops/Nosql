@@ -9,3 +9,6 @@ MATCH (yahya:PERSON),(g:GAME) WHERE yahya.name = 'Yahya' AND g.name = 'Counter S
 MATCH (yahya:PERSON),(g:GAME) WHERE yahya.name = 'Yahya' AND g.name = 'Borderlands 2' CREATE (yahya)-[r:BOUGHT{on:"02/12/2012"}]->(g) RETURN r;
 MATCH (yahya:PERSON),(g:GAME) WHERE yahya.name = 'Yahya' AND g.name = 'PGA 2012' CREATE (yahya)-[r:BOUGHT{on:"01/12/2013"}]->(g) RETURN r;
 MATCH (yahya:PERSON),(g:GAME) WHERE yahya.name = 'Yahya' AND g.name = 'Borderlands 1' CREATE (yahya)-[r:BOUGHT{on:"02/10/2012"}]->(g) RETURN r;
+
+MATCH (yahya:PERSON),(g:PLATFORM) WHERE yahya.name = 'Yahya' AND g.type = 'PC' CREATE (yahya)-[r:OWNS]->(g) RETURN r;
+MATCH (yahya:PERSON),(g:PLATFORM) WHERE yahya.name = 'Yahya' AND g.type = 'PS3' CREATE (yahya)-[r:OWNS]->(g) RETURN r;
