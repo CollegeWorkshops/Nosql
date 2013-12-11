@@ -12,9 +12,14 @@ curl -v http://localhost:10018/buckets?buckets=true | format-json
 curl -v -XPOST -d 'ABCDEFGHIJKLM' -H "Content-Type: application/json" http://localhost:10018/buckets/user-sessions/keys/sandeep?returnbody=true | format-json
 curl -v -XPOST -d '{"cart":{"books":[{"name":"nosql","quantity":10}]}}' -H "Content-Type: application/json" http://localhost:10018/buckets/shop-carts/keys/pramod?returnbody=true | format-json
 
+
 -Listing keys
 curl -v http://localhost:10018/buckets/user-sessions/keys?keys=true |format-json
 curl -v http://localhost:10018/buckets/shop-carts/keys?keys=true |format-json
+
+--Udpate
+curl -v -XPUT -d '{"cart":{"books":[{"name":"nosql","quantity":11}]}}' -H "Content-Type: application/json" http://localhost:10018/buckets/shop-carts/keys/pramod?returnbody=true | format-json
+
 
 --Fetching key/value
 
@@ -29,7 +34,7 @@ curl -v -X DELETE http://127.0.0.1:10018/buckets/user-sessions/keys/sandeep
 
 #Ring details
 
-joing to a cluster
+joining to a cluster
 dev2/bin/riak-admin cluster join dev1@127.0.0.1
 dev3/bin/riak-admin cluster join dev1@127.0.0.1
 dev4/bin/riak-admin cluster join dev1@127.0.0.1
