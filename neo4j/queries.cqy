@@ -5,7 +5,11 @@ MATCH (g:GENRE {name:'Action'}) <-[:IS_OF_GENRE]- (game) -[:HAS_PEGI_RATING]->(p
 What Genres are the games that I have bought --->
 MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)-[:IS_OF_GENRE]->(genre) return DISTINCT genre.name;
 
-Rated above 90 --->
+Give me total cost of all games I have bought
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g) return sum(g.cost);
+
+What is the total cost of a Publishers games that have been bought --->
+MATCH (p:PUBLISHER)<-[:IS_PUBLISHED_BY]-(g:GAME)<-[b:BOUGHT]-(u) return MAX(SUM(g.cost))\
 
 Similar games to the Genre I have bought --->
 MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) WHERE (game.name = g.name) return DISTINCT game.name;
@@ -17,32 +21,7 @@ Get me games played by users who have played similar games
 MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)<-[:BOUGHT]-(other:PERSON), (g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) RETURN DISTINCT game.name;
 
 Get me all the games and the dates I bought them on
-MATCH (p:PERSON{name:'Yahya'})-[b:BOUGHT]->(g) return g, b.on;
-
-Give me games that have been played by users who have played similar games and have a rating of over 80
-Give me games by the same publisher whose games I have played most
-Give me total cost of all games I have bought
-
-MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g) return sum(g.cost);
-
-Game popularity by publisher and genre ---> Most Bought, Most Rated, Most Bought Genre
-
-promote games based on the kinds of platform a user owns
-
-How much did a publisher earn overall
-
-
-What is the total cost of a Publishers games that have been bought --->
-MATCH (p:PUBLISHER)<-[:IS_PUBLISHED_BY]-(g:GAME)<-[b:BOUGHT]-(u) return MAX(SUM(g.cost))
-
-
-
-promote games based on the kinds of platform a user owns
-promote games of the same publisher that user has played
-
-MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) return DISTINCT( FILTER (other_game in game.name WHERE NOT(game.name = g.name)) );
-MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g) WITH g, MATCH g-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) WHERE NOT(g.name = game.name) RETURN game.name;
-
+MATCH (p:PERSON{name:'Yahya'})-[b:BOUGHT]->(g) return g.name, b.on;
 
 
 Tell me the games that I have played that others have played.
@@ -51,3 +30,20 @@ MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)<-[:BOUGHT]-(other:PERSON) RETURN g
 Tell me the games that are of the same genre that I have played that others have also played.
 MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)<-[:BOUGHT]-(other:PERSON), (g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) RETURN genre,game;
 
+Rated above 90 --->
+MATCH (g:GAME) WHERE g.user_rating>90 RETURN g.name
+
+Give me games that have been played by users who have played similar games and have a rating of over 80 --->
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(other_game)<-[:BOUGHT]-(user), (genre)<-[:IS_OF_GENRE]-(some_game) RETURN some_game;
+
+Give me games by the same publisher whose games I have played most
+
+Game popularity by publisher and genre ---> Most Bought, Most Rated, Most Bought Genre
+
+promote games based on the kinds of platform a user owns
+
+How much did a publisher earn overall
+
+promote games based on the kinds of platform a user owns
+
+promote games of the same publisher that user has played
