@@ -37,6 +37,9 @@ MATCH (g:GAME) WHERE g.user_rating>90 RETURN g.name
 
 Game popularity by publisher and genre
 
+MATCH (g:GAME)-[q:IS_PUBLISHED_BY]->(p:PUBLISHER) return p.name,count(q);
+
+
 promote games based on the kinds of platform a user owns
 
 promote games of the same publisher that user has bought
