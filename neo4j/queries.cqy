@@ -14,10 +14,18 @@ On a particular date --->
 MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT{on:"01/12/2013"}]->(g) return g.name;
 
 Get me games played by users who have played similar games
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g)<-[:BOUGHT]-(other:PERSON), (g)-[:IS_OF_GENRE]->(genre)<-[:IS_OF_GENRE]-(game) RETURN DISTINCT game.name;
+
 Get me all the games and the dates I bought them on
+MATCH (p:PERSON{name:'Yahya'})-[b:BOUGHT]->(g) return g, b.on;
+
 Give me games that have been played by users who have played similar games and have a rating of over 80
 Give me games by the same publisher whose games I have played most
 Give me total cost of all games I have bought
 
+MATCH (p:PERSON{name:'Yahya'})-[:BOUGHT]->(g) return sum(g.cost);
+
 Game popularity by publisher and genre ---> Most Bought, Most Rated, Most Bought Genre
 How much did a publisher earn on a day or overall
+
+
