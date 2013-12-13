@@ -1,3 +1,4 @@
+db.games.remove();
 db.games.insert({ 'title' : "God Of War Chains Of Olympus", 'cost' : 750, 'user_rating' :91, 'pegi_rating' :18, 'platforms' : ['PSP']});
 db.games.insert({ 'title' : "God Of War 1", 'cost' : 420, 'user_rating' :94, 'pegi_rating' :18, 'platforms' : ['PS3']});
 db.games.insert({ 'title' : "God Of War Ghost of Sparta", 'cost' : 850, 'user_rating' :86, 'pegi_rating' :18, 'platforms' : ['PSP']});
