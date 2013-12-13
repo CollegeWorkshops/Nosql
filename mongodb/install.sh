@@ -11,3 +11,11 @@ sudo apt-get update
 
 #Install MongoDB
 sudo apt-get install mongodb-10gen
+
+#Make the data directories
+sudo mkdir /data
+sudo chmod 777 /data
+mkdir /data/node1
+mkdir /data/node2
+mkdir /data/node3
+
